@@ -1,0 +1,25 @@
+{
+  "identifier": "ping-agent",
+  "hosts": [
+    {
+      "description": "pfSense Firewall",
+      "hostname": "10.0.1.1",
+      "redisKey": "pfSense Firewall"
+    },
+    {
+      "description": "Challenge Net 1",
+      "hostname": "10.0.1.100",
+      "redisKey": "Challenge Net 1"
+    },
+    {
+      "description": "Challenge Net 2",
+      "hostname": "10.0.1.101",
+      "redisKey": "Challenge Net 2"
+    },
+    {
+      "description": "localhost",
+      "hostname": "127.0.0.1",
+      "redisKey": "localhost"
+    }
+  ]
+}

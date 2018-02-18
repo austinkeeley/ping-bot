@@ -1,0 +1,17 @@
+{
+  "name": "ping-bot",
+  "version": "1.1.1",
+  "description": "Pings hosts and updates a redis store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Austin Keeley",
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "minimist": "^1.2.0",
+    "net-ping": "^1.2.0",
+    "node-schedule": "^1.1.1",
+    "redis": "^2.6.2"
+  }
+}
